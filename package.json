@@ -1,0 +1,23 @@
+{
+    "name": "modulo-calculadora",
+    "version": "0.0.21",
+    "description": "teste de exportacao de um construtor como modulo para ser utilizado.",
+    "main": "index.js",
+    "scripts": {
+        "watch": "tsc -p src -w",
+        "build": "gulp js:build && rm -rf lib && tsc -p dist"
+    },
+    "keywords": [],
+    "author": "Pedro Cruz",
+    "license": "ISC",
+    "dependencies": {
+        "@angular/common": "^5.2.3",
+        "@angular/core": "^5.2.3",
+        "gulp": "^3.9.1",
+        "gulp-angular-embed-templates": "^2.3.0",
+        "gulp-inline-ng2-styles": "0.0.1",
+        "rxjs": "^5.5.6",
+        "typescript": "^2.7.1",
+        "zone.js": "^0.8.20"
+    }
+}
